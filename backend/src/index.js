@@ -20,8 +20,10 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
-    origin: "https://fullstack-chat-app-tau-five.vercel.app",
+    origin: [
+      "http://localhost:5173",
+      "https://fullstack-chat-app-tau-five.vercel.app",
+    ],
     credentials: true,
   })
 );
