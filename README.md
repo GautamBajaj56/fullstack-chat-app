@@ -18,7 +18,7 @@ The project uses a React frontend, an Express backend, MongoDB for persistence, 
 
 ### Frontend
 
-- React
+- React 
 - Vite
 - Tailwind CSS
 - Zustand
